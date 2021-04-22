@@ -1,27 +1,16 @@
-# BvFrontendTest
+# Frontend Test
+Esse teste tem como objetivo de avaliar o nível de conhecimento do framework Angular e boas práticas de desenvolvimento frontend.
+O teste consiste em um formulario simples de cadastro, com algumas chamadas http e validações de campos. O código ja se encontra funcional, porem com possiveis bugs. 
+ - Identificação e  correção de bugs.
+ - Identeficação e implementação de melhorias estruturias e aplicação de boas praticas de `clean code`.
+ - Implementação dos testes unitarios
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+## Configuração do ambiente
 
-## Development server
+ - Versão do node `8.9.3`
+ - Execute `npm run start:hapi` para subir o ambiente de desenvolvimento.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Comando para executar testes unitários
 
-## Code scaffolding
+`ng test` para executar os testes unitários.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
