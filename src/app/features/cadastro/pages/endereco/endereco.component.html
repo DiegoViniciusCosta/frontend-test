@@ -1,0 +1,72 @@
+<div class="container">
+    <form [formGroup]="form">
+        <h1>Endereço</h1>
+        <div class="row">
+            <div class="col-6">
+                <mat-form-field>
+                    <input
+                        type="text"
+                        matInput
+                        (change)="onCepChange($event)"
+                        formControlName="cep"
+                        name="cep"
+                        placeholder="CEP"
+                    />
+                </mat-form-field>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <mat-form-field>
+                    <input
+                        type="text"
+                        matInput
+                        formControlName="rua"
+                        name="rua"
+                        placeholder="Endereço"
+                    />
+                </mat-form-field>
+            </div>
+            <div class="col">
+                <mat-form-field>
+                    <input
+                        type="text"
+                        matInput
+                        formControlName="bairro"
+                        name="bairro"
+                        placeholder="Bairro"
+                    />
+                </mat-form-field>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <mat-form-field>
+                    <mat-label>Estado</mat-label>
+                    <mat-select formControlName="estado" name="estado" (selectionChange)="onEstadoChange($event)">
+                        <mat-option *ngFor="let uf of ufs" [value]="uf.sigla">
+                            {{uf.nome}}
+                        </mat-option>
+                    </mat-select>
+                  </mat-form-field>
+            </div>
+            <div class="col">
+                <mat-form-field>
+                    <mat-label>Cidade</mat-label>
+                    <mat-select formControlName="cidade" name="cidade">
+                        <mat-option *ngFor="let cidade of cidades" [value]="cidade.nome">
+                            {{cidade.nome}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+        </div>
+        <div class="row button-group">
+            <div class="col-6">
+                <button type="button" [disabled]="form.invalid" (click)="submit()" mat-flat-button color="primary">
+                    Salvar
+                </button>
+            </div>
+        </div>
+    </form>
+</div>

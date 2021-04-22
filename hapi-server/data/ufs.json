@@ -1,0 +1,166 @@
+{
+    "listaUf": [
+        {
+            "codigo": 1,
+            "sigla": "AC",
+            "nome": "ACRE",
+            "ativo": true
+        },
+        {
+            "codigo": 2,
+            "sigla": "AL",
+            "nome": "ALAGOAS",
+            "ativo": true
+        },
+        {
+            "codigo": 4,
+            "sigla": "AM",
+            "nome": "AMAZONAS",
+            "ativo": true
+        },
+        {
+            "codigo": 3,
+            "sigla": "AP",
+            "nome": "AMAPA",
+            "ativo": true
+        },
+        {
+            "codigo": 5,
+            "sigla": "BA",
+            "nome": "BAHIA",
+            "ativo": true
+        },
+        {
+            "codigo": 6,
+            "sigla": "CE",
+            "nome": "CEARA",
+            "ativo": true
+        },
+        {
+            "codigo": 7,
+            "sigla": "DF",
+            "nome": "DISTRITO FEDERAL",
+            "ativo": true
+        },
+        {
+            "codigo": 8,
+            "sigla": "ES",
+            "nome": "ESPIRITO SANTO",
+            "ativo": true
+        },
+        {
+            "codigo": 10,
+            "sigla": "GO",
+            "nome": "GOIAS",
+            "ativo": true
+        },
+        {
+            "codigo": 11,
+            "sigla": "MA",
+            "nome": "MARANHAO",
+            "ativo": true
+        },
+        {
+            "codigo": 14,
+            "sigla": "MG",
+            "nome": "MINAS GERAIS",
+            "ativo": true
+        },
+        {
+            "codigo": 13,
+            "sigla": "MS",
+            "nome": "MATO GROSSO DO SUL",
+            "ativo": true
+        },
+        {
+            "codigo": 12,
+            "sigla": "MT",
+            "nome": "MATO GROSSO",
+            "ativo": true
+        },
+        {
+            "codigo": 15,
+            "sigla": "PA",
+            "nome": "PARA",
+            "ativo": true
+        },
+        {
+            "codigo": 16,
+            "sigla": "PB",
+            "nome": "PARAIBA",
+            "ativo": true
+        },
+        {
+            "codigo": 18,
+            "sigla": "PE",
+            "nome": "PERNAMBUCO",
+            "ativo": true
+        },
+        {
+            "codigo": 19,
+            "sigla": "PI",
+            "nome": "PIAUI",
+            "ativo": true
+        },
+        {
+            "codigo": 17,
+            "sigla": "PR",
+            "nome": "PARANA",
+            "ativo": true
+        },
+        {
+            "codigo": 20,
+            "sigla": "RJ",
+            "nome": "RIO DE JANEIRO",
+            "ativo": true
+        },
+        {
+            "codigo": 21,
+            "sigla": "RN",
+            "nome": "RIO GRANDE DO NORTE",
+            "ativo": true
+        },
+        {
+            "codigo": 23,
+            "sigla": "RO",
+            "nome": "RONDONIA",
+            "ativo": true
+        },
+        {
+            "codigo": 9,
+            "sigla": "RR",
+            "nome": "RORAIMA",
+            "ativo": true
+        },
+        {
+            "codigo": 22,
+            "sigla": "RS",
+            "nome": "RIO GRANDE DO SUL",
+            "ativo": true
+        },
+        {
+            "codigo": 25,
+            "sigla": "SC",
+            "nome": "SANTA CATARINA",
+            "ativo": true
+        },
+        {
+            "codigo": 27,
+            "sigla": "SE",
+            "nome": "SERGIPE",
+            "ativo": true
+        },
+        {
+            "codigo": 26,
+            "sigla": "SP",
+            "nome": "SAO PAULO",
+            "ativo": true
+        },
+        {
+            "codigo": 24,
+            "sigla": "TO",
+            "nome": "TOCANTINS",
+            "ativo": true
+        }
+    ]
+}

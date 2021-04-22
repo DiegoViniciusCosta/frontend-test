@@ -1,0 +1,14 @@
+{
+    "enderecoCep": {
+        "uf": {
+            "sigla": "SP",
+            "nome": "SÃO PAULO"
+        },
+        "cep": "08740450",
+        "logradouro": "R TESTE",
+        "numeroInicial": "",
+        "numeroFinal": "",
+        "bairro": "BAIRRO TESTE",
+        "cidade": "SÃO PAULO"
+    }
+}
