@@ -84,5 +84,4 @@ export class DadosPessoaisComponent implements OnInit {
             cpf.setErrors({ 'cpfInvalido': true });
         }
     }
-    // /^[/\d/, /\d/, /\d/, '.', /\d/, /\d/, /\d/, '.', /\d/, /\d/, /\d/, '-', /\d/, /\d/]$/
 }
