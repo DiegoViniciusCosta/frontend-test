@@ -13,10 +13,6 @@
                         placeholder="CEP"
                     />
                 </mat-form-field>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
                 <mat-form-field appearance="fill">
                     <input
                         type="text"
@@ -26,8 +22,6 @@
                         placeholder="Endereço"
                     />
                 </mat-form-field>
-            </div>
-            <div class="col">
                 <mat-form-field appearance="fill">
                     <input
                         type="text"
@@ -37,10 +31,6 @@
                         placeholder="Bairro"
                     />
                 </mat-form-field>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
                 <mat-form-field appearance="fill">
                     <mat-label>Estado</mat-label>
                     <mat-select formControlName="estado" name="estado" (selectionChange)="onEstadoChange($event)">
@@ -48,9 +38,7 @@
                             {{uf.nome}}
                         </mat-option>
                     </mat-select>
-                  </mat-form-field>
-            </div>
-            <div class="col">
+                </mat-form-field>
                 <mat-form-field appearance="fill">
                     <mat-label>Cidade</mat-label>
                     <mat-select formControlName="cidade" name="cidade">
@@ -69,4 +57,7 @@
             </div>
         </div>
     </form>
+    <div>
+        <img class="endereco" src="https://cdn.pixabay.com/photo/2022/07/03/21/43/mountain-7300017__340.jpg" height="420" width="350" style="max-width:100%">
+      </div>
 </div>
