@@ -4,9 +4,9 @@ import { HttpClient } from '@angular/common/http';
 import { CadastroComponent } from './../../cadastro.component';
 
 @Component({
-  selector: 'app-endereco',
-  templateUrl: './endereco.component.html',
-  styleUrls: ['./endereco.component.scss']
+    selector: 'app-endereco',
+    templateUrl: './endereco.component.html',
+    styleUrls: ['./endereco.component.scss']
 })
 export class EnderecoComponent implements OnInit {
 
@@ -88,7 +88,11 @@ export class EnderecoComponent implements OnInit {
         };
 
         this.http.post('/api/salvar', payload).subscribe((res: any) => {
-            alert("Cadastro efetuado com sucesso!")
+            alert('Cadastro efetuado com sucesso!')
         });
+    }
+
+    resetar(form: any) {
+        form.reset();
     }
 }

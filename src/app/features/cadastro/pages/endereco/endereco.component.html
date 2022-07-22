@@ -3,7 +3,7 @@
         <h1>Endereço</h1>
         <div class="row">
             <div class="col-6">
-                <mat-form-field>
+                <mat-form-field appearance="fill">
                     <input
                         type="text"
                         matInput
@@ -13,11 +13,7 @@
                         placeholder="CEP"
                     />
                 </mat-form-field>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <mat-form-field>
+                <mat-form-field appearance="fill">
                     <input
                         type="text"
                         matInput
@@ -26,9 +22,7 @@
                         placeholder="Endereço"
                     />
                 </mat-form-field>
-            </div>
-            <div class="col">
-                <mat-form-field>
+                <mat-form-field appearance="fill">
                     <input
                         type="text"
                         matInput
@@ -37,21 +31,15 @@
                         placeholder="Bairro"
                     />
                 </mat-form-field>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <mat-form-field>
+                <mat-form-field appearance="fill">
                     <mat-label>Estado</mat-label>
                     <mat-select formControlName="estado" name="estado" (selectionChange)="onEstadoChange($event)">
                         <mat-option *ngFor="let uf of ufs" [value]="uf.sigla">
                             {{uf.nome}}
                         </mat-option>
                     </mat-select>
-                  </mat-form-field>
-            </div>
-            <div class="col">
-                <mat-form-field>
+                </mat-form-field>
+                <mat-form-field appearance="fill">
                     <mat-label>Cidade</mat-label>
                     <mat-select formControlName="cidade" name="cidade">
                         <mat-option *ngFor="let cidade of cidades" [value]="cidade.nome">
@@ -61,11 +49,17 @@
                 </mat-form-field>
             </div>
         </div>
+        <div>
+            <img class="imagemEndereco" src="https://cdn.pixabay.com/photo/2022/07/03/21/43/mountain-7300017__340.jpg" height="420" width="350" style="max-width:100%">
+        </div>
         <div class="row button-group">
             <div class="col-6">
                 <button type="button" [disabled]="form.invalid" (click)="submit()" mat-flat-button color="primary">
                     Salvar
                 </button>
+                <button type="button" [disabled]="form.invalid" (click)="resetar(form)" mat-flat-button color="primary">
+                    Resetar
+                  </button>
             </div>
         </div>
     </form>

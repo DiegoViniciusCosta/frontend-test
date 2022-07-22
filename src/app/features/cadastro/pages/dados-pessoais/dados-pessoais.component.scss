@@ -1,14 +1,21 @@
 .container {
-  padding-top: 100px;
+    margin-top: 3%;
+    padding-top: 100px;
+    padding-bottom: 100px;
   form {
     max-width: 720px;
     margin: 0 auto;
     mat-form-field{
       width: 100%;
     }
+    .imagemDados {
+        margin-top: -320px;
+        margin-left: 50%;
+    }
     .button-group {
-      margin-top: 15px;
+      margin-top: 8px;
       button {
+        margin-bottom: 3%;
         padding: 10px;
         width: 100%;
       }
@@ -16,4 +23,3 @@
 
   }
 }
-

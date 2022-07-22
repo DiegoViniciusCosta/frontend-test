@@ -2,32 +2,28 @@
     <form [formGroup]="form">
         <h1>Dados pessoais</h1>
         <div class="row">
-            <div class="col">
-                <mat-form-field>
+            <div class="col-6">
+                <mat-form-field appearance="fill">
                     <input
                         type="text"
+                        (change)="validarNome()"
                         matInput
                         formControlName="nome"
                         name="nome"
                         placeholder="Nome"
                     />
                 </mat-form-field>
-            </div>
-            <div class="col">
-                <mat-form-field>
+                <mat-form-field appearance="fill">
                     <input
                         type="email"
+                        (change)="validarEmail()"
                         matInput
                         formControlName="email"
                         name="email"
                         placeholder="E-mail"
                     />
                 </mat-form-field>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <mat-form-field>
+                <mat-form-field appearance="fill">
                     <input
                         type="text"
                         (change)="validarCelular()"
@@ -37,11 +33,10 @@
                         placeholder="Celular"
                     />
                 </mat-form-field>
-            </div>
-            <div class="col">
-                <mat-form-field>
+                <mat-form-field appearance="fill">
                     <input
                         type="text"
+                        (change)="validarCPF()"
                         matInput
                         formControlName="cpf"
                         name="cpf"
@@ -50,11 +45,17 @@
                 </mat-form-field>
             </div>
         </div>
+        <div>
+            <img class="imagemDados" src="https://cdn.pixabay.com/photo/2022/03/05/10/08/beauty-7048849__340.jpg" height="400" width="400" style="max-width:100%">
+        </div>
         <div class="row button-group">
             <div class="col-6">
                 <button type="button" [disabled]="form.invalid" (click)="submit()" mat-flat-button color="primary">
                 Continuar
                 </button>
+                <button type="button" [disabled]="form.invalid" (click)="resetar(form)" mat-flat-button color="primary">
+                    Resetar
+                  </button>
             </div>
         </div>
     </form>
