@@ -3,7 +3,7 @@
         <h1>Endereço</h1>
         <div class="row">
             <div class="col-6">
-                <mat-form-field>
+                <mat-form-field appearance="fill">
                     <input
                         type="text"
                         matInput
@@ -17,7 +17,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <mat-form-field>
+                <mat-form-field appearance="fill">
                     <input
                         type="text"
                         matInput
@@ -28,7 +28,7 @@
                 </mat-form-field>
             </div>
             <div class="col">
-                <mat-form-field>
+                <mat-form-field appearance="fill">
                     <input
                         type="text"
                         matInput
@@ -41,7 +41,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <mat-form-field>
+                <mat-form-field appearance="fill">
                     <mat-label>Estado</mat-label>
                     <mat-select formControlName="estado" name="estado" (selectionChange)="onEstadoChange($event)">
                         <mat-option *ngFor="let uf of ufs" [value]="uf.sigla">
@@ -51,7 +51,7 @@
                   </mat-form-field>
             </div>
             <div class="col">
-                <mat-form-field>
+                <mat-form-field appearance="fill">
                     <mat-label>Cidade</mat-label>
                     <mat-select formControlName="cidade" name="cidade">
                         <mat-option *ngFor="let cidade of cidades" [value]="cidade.nome">
