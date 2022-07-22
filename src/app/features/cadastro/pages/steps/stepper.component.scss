@@ -1,44 +1,38 @@
-  /* Simple setup for this demo */
+.mdl-card {
+width: 550px;
+min-height: 0;
+margin: 10px auto;
+}
 
-  .mdl-card {
-    width: 550px;
-    min-height: 0;
-    margin: 10px auto;
-  }
+.mdl-card__supporting-text {
+width: 100%;
+padding: 0;
+}
 
-  .mdl-card__supporting-text {
-    width: 100%;
-    padding: 0;
-  }
+.mdl-stepper-horizontal-alternative .mdl-stepper-step {
+width: 25%;
+}
 
-  .mdl-stepper-horizontal-alternative .mdl-stepper-step {
-    width: 25%;
-    /* 100 / no_of_steps */
-  }
+.mdl-stepper-horizontal-alternative {
+display: table;
+width: 100%;
+margin: 0 auto;
+}
 
+.mdl-stepper-horizontal-alternative .mdl-stepper-step {
+display: table-cell;
+position: relative;
+padding: 24px;
+}
 
-  /* Begin actual mdl-stepper css styles */
+.mdl-stepper-horizontal-alternative .mdl-stepper-step:hover,
+.mdl-stepper-horizontal-alternative .mdl-stepper-step:active {
+background-color: rgba(0, 0, 0, .06);
+}
 
-  .mdl-stepper-horizontal-alternative {
-    display: table;
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .mdl-stepper-horizontal-alternative .mdl-stepper-step {
-    display: table-cell;
-    position: relative;
-    padding: 24px;
-  }
-
-  .mdl-stepper-horizontal-alternative .mdl-stepper-step:hover,
-  .mdl-stepper-horizontal-alternative .mdl-stepper-step:active {
-    background-color: rgba(0, 0, 0, .06);
-  }
-
-  .mdl-stepper-horizontal-alternative .mdl-stepper-step:active {
-    border-radius: 15% / 75%;
-  }
+.mdl-stepper-horizontal-alternative .mdl-stepper-step:active {
+border-radius: 15% / 75%;
+}
 
   .mdl-stepper-horizontal-alternative .mdl-stepper-step:first-child:active {
     border-top-left-radius: 0;
