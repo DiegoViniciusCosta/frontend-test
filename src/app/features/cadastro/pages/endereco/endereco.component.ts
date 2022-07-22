@@ -91,4 +91,8 @@ export class EnderecoComponent implements OnInit {
             alert('Cadastro efetuado com sucesso!')
         });
     }
+
+    resetar(form: any) {
+        form.reset();
+    }
 }

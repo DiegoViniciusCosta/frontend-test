@@ -84,4 +84,8 @@ export class DadosPessoaisComponent implements OnInit {
             cpf.setErrors({ 'cpfInvalido': true });
         }
     }
+
+    resetar(form: any) {
+        form.reset();
+    }
 }
